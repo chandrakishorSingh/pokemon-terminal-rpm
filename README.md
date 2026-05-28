@@ -39,4 +39,4 @@ sudo dnf uninstall pokemon-terminal
 
 ## Credits
 
-Upstream repository: https://github.com/LazoVelko/Pokemon-Terminal
+Upstream repository: [LazoVelko/Pokemon-Terminal](https://github.com/LazoVelko/Pokemon-Terminal)
