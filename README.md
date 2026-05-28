@@ -1,5 +1,9 @@
 # Pokemon Terminal
 
+<div align="center">
+  <img src="https://i.imgur.com/DfA2lcd.gif" />
+</div>
+
 [Pokemon Terminal](https://github.com/LazoVelko/Pokemon-Terminal) is a command line application to set Pokemon art as terminal background and wallpaper.
 
 This repository contains the configuration file for converting Pokemon Terminal into an rpm package so that Fedora users can download and install it via [copr](https://copr.fedorainfracloud.org/coprs/chandrakishorsingh/pokemon-terminal/).
