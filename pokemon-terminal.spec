@@ -12,7 +12,9 @@ Source0:        %{url}/archive/v%{version}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-psutil
 BuildRequires:  pyproject-rpm-macros
+Requires:       python3-psutil
 
 %global _description %{expand:
 719 unique Pokemon, from Kanto, Johto, Hoenn, Sinnoh, Unova, and Kalos.
@@ -23,9 +25,6 @@ Supports iTerm2, Terminology, Tilix and ConEmu.}
 
 %prep
 %autosetup -n %{srcname}-%{version}
-
-%generate_buildrequires
-%pyproject_buildrequires
 
 %build
 %pyproject_wheel
